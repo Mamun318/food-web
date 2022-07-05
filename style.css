@@ -1,0 +1,126 @@
+body{
+    width:80%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin:0 auto;
+}
+
+
+   /* --------------------------------------------------    first-section ---------------------------------------- */
+.flex{
+    display: flex;
+}
+.first-section{
+   
+    height: 500px;
+    width:100%;  
+}
+
+.first-section-text{
+    margin-top: 60px;
+    margin-left: 20px;
+    padding-left: 50px;
+    
+}
+.first-section-text h1{
+    font-size: 41px;
+    line-height: 50px;
+    
+}
+.first-section-text p{
+    color: #FC8F49;
+    font-style: italic;
+    
+}
+
+button{
+    padding: 10px 20px;
+    background-image:linear-gradient(45deg,#FD482D, #FC8F49);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: bisque;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.section-img{
+    height: 100%;  
+}
+
+
+    /* -------------------------------------------------   second-section start ---------------------------- */
+
+.second-section{
+   background-image: url(img/7.png);
+   background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+.second-section-text{
+    margin-top: 30px;
+    padding-left: 30px;
+
+      
+}
+.second-section-text h1{
+    opacity: 0.6;
+}
+
+
+    /* ----------------------------------------------   third-section-text ---------------------------------- */
+
+.third-section-text{
+    text-align: center;
+    margin-bottom: 55px;
+}
+span{
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+    /* --------------------------------------------      recepies_item start ---------------------------------- */
+.recepies_item{
+    width: 30%;
+    margin-left: 30px;
+    box-shadow: 10px 10px 15px 10px grey;
+    border-radius: 20px;  
+
+}
+.recepies_item img{
+    box-sizing: border-box;
+    padding: 13px;
+    width: 100%;
+    border-radius: 20px;
+}
+.recepies-text{
+    padding-left: 13px;
+    font-size: 13px;
+    margin-top: -10px;
+}
+/* ---------------------------------------------counter-section-start-------------------------------------- */
+
+.counter-section{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px grey;
+}
+.counter{
+    width: 33.4%;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
